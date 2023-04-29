@@ -39,5 +39,7 @@ WORKDIR /var/www/html
 # Copy our entrypoint script.
 COPY docker-entrypoint.sh /usr/local/bin/
 
+EXPOSE 8080
+
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["apache2-foreground"]
