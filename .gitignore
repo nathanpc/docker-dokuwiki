@@ -1,0 +1,7 @@
+# Volumes
+dokuwiki/
+
+# Misc.
+.DS_Store
+Thumbs.db
+
